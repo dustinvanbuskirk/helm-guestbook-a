@@ -1,0 +1,4 @@
+helm-guestbook:
+  image:
+    repository: dustinvanbuskirk/helm-guestbook-a
+    tag: 0.1
