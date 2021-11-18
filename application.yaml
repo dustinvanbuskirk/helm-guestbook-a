@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: helm-guestbook-a-dev
+  namespace: argocd
+spec:
+  project: helm-guestbook-a
+  source:
+    repoURL: https://github.com/dustinvanbuskirk/helm-guestbook-a.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: dev

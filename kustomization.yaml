@@ -7,4 +7,4 @@ helmCharts:
   version: 0.1.5
   releaseName: helm-guestbook-a-dev
   namespace: dev
-  valuesFile: https://raw.githubusercontent.com/dustinvanbuskirk/helm-guestbook-environments/main/helm-guestbook-a/dev/application.yaml
+  valuesFile: https://raw.githubusercontent.com/dustinvanbuskirk/helm-guestbook-environments/main/helm-guestbook-a/dev/values.yaml
